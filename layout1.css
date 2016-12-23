@@ -1,0 +1,355 @@
+/*
+colors: 
+
+top brown = #301c11
+bottom brown = #2e1d13
+orange stripe = #d0661a
+cream background = #eae0d4
+mustard background = #cea53c
+
+orange text = #d16d22
+brown text = #662803
+*/
+
+body {
+	font-family: serif;
+	margin: 0;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none outside none;
+}
+
+h1 {
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.white-sans {
+	color: #eae0d4;
+	font-family: sans-serif;
+}
+
+.orange-sans {
+	color: #d16d22;
+	font-family: sans-serif;
+}
+
+.brown-serif {
+	color: #662803;
+	font-family: serif;
+}
+
+.white-serif {
+	color: #eae0d4;
+	font-family: serif;
+}
+
+.orange-serif {
+	color: #d16d22;
+	font-family: serif;
+}
+
+.main-wrapper {
+	min-width: 320px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+	background-color: #301c11;
+	height: 80px;
+}
+
+.header-stripe {
+	position: absolute;
+	bottom: 0px;
+	height: 3px;
+	width: 100%;
+	background-color: #d0661a;
+}
+
+.main-logo {
+	height: 85%;
+	top: 5px;
+	left: 15px;
+	position: absolute;
+}
+
+.login-findstore {
+	position: absolute;
+	width: 130px;
+	height: 28px;
+	top: 13px;
+	right: 70px;
+	line-height: 30px;
+}
+
+.login {
+	position: absolute;
+	left: 0px;
+	font-size: small;
+}
+
+.findstore {
+	position: absolute;
+	right: 0px;
+	font-size: small;
+}
+
+.vertical-bar {
+	background-color: #eae0d4;
+	width: 1px;
+	height: 28px;
+	position: absolute;
+	left: 36%;
+}
+
+.coffee-title {
+	display: none;
+}
+
+.search {
+}
+
+.search-bar {
+}
+
+.search-button {
+	position: absolute;
+	height: 36px;
+	width: 36px;
+	background-color: #662803;
+	top: 10px;
+	right: 15px;
+}
+
+.nav-wrapper {
+	background-color: #eae0d4;
+	min-height: 35px;
+}
+
+.nav-main {
+	
+}
+
+.nav-main-link {
+	display: inline;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	width: 100px;
+	text-align: center;
+}
+
+.nav-main-a {
+	color: black;
+	font-family: serif;
+}
+
+.nav-main-a:hover {
+	color: #d16d22;
+}
+
+.splash-main {
+	/*max-width: 100%;
+	min-height: 135px;
+	height: 400px;
+	overflow: hidden;*/
+}
+
+.splash-image {
+	min-height: 135px;
+	max-width: 100%;
+	min-width: 500px;
+}
+
+.intro {
+	background-color: #eae0d4;
+	padding: 15px;
+}
+
+.intro-header {
+	color: #662803;
+}
+
+.light-medium-dark {
+	padding-top: 10px;
+}
+
+.lmd-unit {
+}
+
+.lmd-img {
+	margin: 0 auto;
+	display: block;
+}
+
+.lmd-text {
+	text-align: center;
+	color: #d16d22;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.select-coffee-wrapper {
+	position: relative;
+}
+
+.select-coffee {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px 0px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 0px 20px;
+}
+
+.select-coffee-plus {
+	display: inline;
+	float: right;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.select-coffee-list {
+	display: none;
+}
+
+.description {
+	padding: 10px;
+	background-color: #cea53c;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.description-header {
+	font-size: 8pt;
+	color: white;
+	text-align: center;
+}
+
+.product-area {
+}
+
+.product {
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-image {
+	float: left;
+}
+
+.rating-area {
+	float: right;
+	vertical-align: middle;
+	width: 120px;
+	padding-top: 100px;
+}
+
+.rating-area::after {
+	clear: both;
+}
+
+.product-name {
+	text-align: center;
+	font-size: small;
+}
+
+.product-price {
+	text-align: center;
+	font-size: small;
+}
+
+.product-rating {
+}
+
+.footer {
+	position: relative;
+	background-color: #2e1d13;
+	padding-bottom: 30px;
+}
+
+.footer-section {
+	padding-left: 25px;
+}
+
+.footer-headings {
+	color: #d16d22;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16pt;
+}
+
+.footer-link {
+	height: 32px;
+}
+
+.footer-text {
+	color: #eae0d4;
+}
+
+.footer-icon {
+	width: 32px;
+	font-size: 18pt;
+}
+
+.footer-stripe-top {
+	height: 3px;
+	background-color: #d0661a;
+}
+
+.footer-stripe-bottom {
+	position: absolute;
+	bottom: 0px;
+	height: 1px;
+	width: 100%;
+	background-color: #573313;
+}
+
+.stay-input {
+	height: 34px;
+	width: 260px;
+}
+
+.copyright {
+	background-color: #2e1d13;
+	color: #eae0d4;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
