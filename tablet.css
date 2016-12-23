@@ -19,6 +19,10 @@
 	padding-left: 220px;
 }
 
+.nav-main {
+	display: unset;
+}
+
 .coffee-title {
 	display: block;
 	position: absolute;
@@ -79,8 +83,6 @@
 
 .sc-list-link:hover {
 	color: #d16d22;
-	/*font-family: serif;
-	font-size: 10pt;*/
 }
 
 .display-selected {

@@ -141,7 +141,9 @@ a {
 }
 
 .nav-main {
-	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .nav-main-link {
