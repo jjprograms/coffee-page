@@ -255,7 +255,6 @@ a {
 }
 
 .product-image {
-	float: left;
 }
 
 .rating-area {
@@ -285,7 +284,6 @@ a {
 .footer {
 	position: relative;
 	background-color: #2e1d13;
-	padding-bottom: 30px;
 }
 
 .footer-section {
@@ -318,11 +316,9 @@ a {
 }
 
 .footer-stripe-bottom {
-	position: absolute;
-	bottom: 0px;
 	height: 1px;
-	width: 100%;
 	background-color: #573313;
+	margin-top: 30px;
 }
 
 .stay-input {
@@ -331,12 +327,12 @@ a {
 }
 
 .copyright {
-	background-color: #2e1d13;
 	color: #eae0d4;
 	padding-top: 15px;
 	padding-bottom: 40px;
 	padding-left: 25px;
 	padding-right: 25px;
+	font-family: sans-serif;
 }
 
 

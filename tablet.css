@@ -15,6 +15,32 @@
 	z-index: 1;
 }
 
+.login-findstore {
+	right: 22px;
+}
+
+.search-bar {
+	display: block;
+	position: absolute;
+	width: 135px;
+	height: 28px;
+	background-color: #eae0d4;
+	right: 49px;
+	top: 60px;
+}
+
+.search-button {
+	height: 28px;
+	width: 28px;
+	top: 60px;
+	right: 21px;
+}
+
+.search-button > img {
+	height: 100%;
+	width: 100%;
+}
+
 .nav-wrapper {
 	padding-left: 220px;
 }
@@ -62,7 +88,7 @@
 	float: left;
 	min-width: 194px;
 	max-width: 208px;
-	padding-top: 25px;
+	padding-top: 15px;
 }
 
 .sc-list-item {
@@ -115,6 +141,48 @@
 
 .footer {
 	clear: both;
+	background-image: url(watermark.png);
+	background-position: bottom 0px left 420px;
+	background-repeat: no-repeat;
+}
+
+.footer-section {
+	
+}
+
+.footer-headings {
+	color: #d16d22;
+	padding-top: 30px;
+	padding-bottom: 18px;
+	font-size: 12pt;
+}
+
+.footer-link {
+	height: 24px;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.footer-icon {
+	width: 24px;
+	font-size: 14pt;
+}
+
+.getconnected {
+	position: absolute;
+	top: 112px;
+	left: 320px;
+}
+
+.general-links-box {
+	-moz-column-count: 2;
+	-moz-column-fill: auto;
+	width: 290px;
+	height: 145px;
+}
+
+.copyright {
+	font-size: 8pt;
 }
 
 }
